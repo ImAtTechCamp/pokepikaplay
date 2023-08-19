@@ -1,0 +1,22 @@
+body{
+	background-color: black;
+}
+
+.header{
+	position: fixed;
+	color: white;
+	left: 40%;
+	font-family: cursive;
+	border: 5px solid #c3d1e8;
+  	padding: 10;
+  	text-align: center;
+}
+
+.grow { 
+color: #ffffff;
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
